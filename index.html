@@ -1,341 +1,184 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wei Bi 闭玮 | Southern University of Science and Technology</title>
-<meta name="description" content="Wei Bi (闭玮) — Incoming Associate Professor, School of AI, Southern University of Science and Technology (SUSTech). Large Language Models, Vision-Language Models, NLP.">
-<link rel="icon" href="data:,">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me | Wei Bi</title>
+<meta name="description" content="Wei Bi (闭玮) — Incoming Associate Professor, School of Artificial Intelligence, Southern University of Science and Technology (SUSTech).">
+<link rel="canonical" href="https://wei-bi.github.io/">
+<link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="#top" class="brand">Wei Bi 闭玮</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#honors">Honors</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#service">Service</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-<div id="top"></div>
-
-<header class="hero">
-  <div class="wrap hero-grid">
-    <div class="avatar"><img src="assets/photo.jpg" alt="Wei Bi" onerror="this.parentElement.innerHTML='WB'"></div>
-    <div>
-      <span class="badge-incoming">Incoming Associate Professor, SUSTech · 2026</span>
-      <h1>Wei Bi <span class="name-cn">闭玮</span></h1>
-      <p class="title-line"><strong>Associate Professor (incoming)</strong></p>
-      <p class="affil">School of Artificial Intelligence, Southern University of Science and Technology (SUSTech), Shenzhen, China</p>
-      <p class="affil" style="margin-top:-8px;">Currently: Principal Researcher &amp; Lead of LLM Posttraining Team, Kuaishou</p>
-      <div class="contact-row">
-        <a href="mailto:biwei198804@gmail.com">✉ biwei198804@gmail.com</a>
-        <span>📍 Shenzhen, China</span>
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Wei Bi 闭玮</a>
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger">
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px"><path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/></svg>
+        </span>
+      </label>
+      <div class="trigger">
+        <a class="page-link" href="/">About Me</a>
+        <a class="page-link" href="/research.html">Research</a>
+        <a class="page-link" href="/projects.html">Projects</a>
+        <a class="page-link" href="/publications.html">Publications</a>
+        <a class="page-link" href="/teaching.html">Teaching</a>
       </div>
-      <div class="social-links">
-        <a href="https://scholar.google.com/" title="Google Scholar" target="_blank" rel="noopener">GS</a>
-        <a href="https://github.com/" title="GitHub" target="_blank" rel="noopener">GH</a>
-        <a href="https://www.dblp.org/" title="DBLP" target="_blank" rel="noopener">DBLP</a>
-        <a href="assets/CV_WeiBi.pdf" title="Download CV" target="_blank" rel="noopener">CV</a>
-      </div>
-    </div>
+    </nav>
   </div>
 </header>
 
-<main class="wrap">
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
 
-  <section id="about">
-    <h2 class="section-title">About</h2>
-    <p class="lede">
-      I am joining the <strong>School of Artificial Intelligence, Southern University of Science and Technology (SUSTech)</strong>
-      as an Associate Professor. I received my Ph.D. in Computer Science and Engineering from the
-      <strong>Hong Kong University of Science and Technology</strong> (2010&ndash;2015) and my B.S. in Computer Science from
-      <strong>Sun Yat-sen University</strong> (2006&ndash;2010). Before moving to academia, I worked as a Principal Researcher and
-      led the LLM Posttraining team at <strong>Kuaishou</strong>, and previously spent seven years as a Principal Researcher at
-      <strong>Tencent AI Lab</strong>, with earlier experience at <strong>Baidu NLP</strong> and as a Visiting Scholar at the
-      <strong>National University of Singapore</strong>.
+    <img class="identity-photo" title="Wei Bi" src="/assets/photo.jpg" alt="Wei Bi" onerror="this.style.display='none'">
+
+    <p>
+      Wei Bi 闭玮<br>
+      Associate Professor (incoming)<br>
+      School of Artificial Intelligence, Southern University of Science and Technology (SUSTech)<br>
+      Shenzhen, China<br>
+      Email: biwei198804[AT]gmail.com
     </p>
-    <p class="lede">
-      My research centers on large language models and vision-language models — particularly posttraining techniques that
-      enhance reasoning, agentic abilities, and cross-modal understanding — along with natural language processing and
-      machine learning more broadly. I have led industrial research teams that shipped widely-used systems (open-domain
-      dialog, multi-modal digital humans, creative writing assistants) and open-sourced projects spanning formal theorem
-      proving, agentic coding, and diffusion language models. I am actively recruiting self-motivated <strong>PhD students,
-      Postdocs, and Research Assistants</strong> at SUSTech — please reach out if you share these research interests.
-    </p>
-  </section>
 
-  <section id="research">
-    <h2 class="section-title">Research Interests</h2>
-    <div class="interest-grid">
-      <div class="interest-card">
-        <h3>Large Language &amp; Vision-Language Models</h3>
-        <p>Posttraining with enhanced reasoning, agentic abilities, and cross-modal understanding.</p>
-      </div>
-      <div class="interest-card">
-        <h3>Natural Language Processing</h3>
-        <p>Open-domain dialog systems and multi-modal digital humans.</p>
-      </div>
-      <div class="interest-card">
-        <h3>Machine Learning</h3>
-        <p>Structured prediction and sparse prediction.</p>
-      </div>
-    </div>
-  </section>
+    <p><strong>Links:</strong> <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a> | <a href="https://dblp.org/" target="_blank" rel="noopener">DBLP</a> | <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> | <a href="/assets/CV_WeiBi.pdf" target="_blank" rel="noopener">CV</a></p>
 
-  <section id="experience">
-    <h2 class="section-title">Education &amp; Experience</h2>
-    <h3 style="font-size:1rem;color:var(--color-text-muted);margin-bottom:8px;">Education</h3>
-    <ul class="timeline">
-      <li>
-        <div class="period">2010 – 2015</div>
-        <div>
-          <div class="role">Ph.D., Computer Science and Engineering</div>
-          <div class="org">Hong Kong University of Science and Technology, Hong Kong</div>
-        </div>
+    <p><strong>Notice:</strong> <span class="notice-line">I am joining SUSTech in 2026 and am actively recruiting self-motivated PhD students, Postdocs, and Research Assistants working on large language models, vision-language models, and NLP. Please reach out by email with your CV and research interests.</span></p>
+
+    <h2 id="bio">BIO</h2>
+    <p>I am joining the School of Artificial Intelligence, Southern University of Science and Technology (SUSTech) as
+    an Associate Professor. I previously worked as a Principal Researcher and Lead of the LLM Posttraining team at
+    Kuaishou, and spent seven years as a Principal Researcher at Tencent AI Lab, with earlier experience at Baidu NLP
+    and as a Visiting Scholar at the National University of Singapore. My research focuses on large language models
+    and vision-language models — particularly posttraining techniques that enhance reasoning, agentic abilities, and
+    cross-modal understanding — along with natural language processing and machine learning more broadly. I have led
+    industrial research teams that shipped widely-used systems, including open-domain dialog systems, multi-modal
+    digital humans, and creative writing assistants, and have released open-source projects spanning formal theorem
+    proving, agentic coding, and diffusion language models. I received my PhD in Computer Science and Engineering
+    from the Hong Kong University of Science and Technology and my B.S. in Computer Science from Sun Yat-sen
+    University.</p>
+
+    <h2 id="working-experiences">Working Experiences</h2>
+    <ul>
+      <li>Kuaishou, China
+        <ul>
+          <li>Principal Researcher, Lead of LLM Posttraining Team (E13), 2024 - Present</li>
+        </ul>
       </li>
-      <li>
-        <div class="period">2006 – 2010</div>
-        <div>
-          <div class="role">B.S., Computer Science</div>
-          <div class="org">Sun Yat-sen University, Guangzhou, China</div>
-        </div>
+      <li>Tencent AI Lab, China
+        <ul>
+          <li>Principal Researcher (T12, promoted from Senior Researcher in Sept. 2021), 2017 - 2024</li>
+        </ul>
+      </li>
+      <li>Baidu NLP, China
+        <ul>
+          <li>Senior Research and Development Engineer, 2015 - 2017</li>
+        </ul>
+      </li>
+      <li>National University of Singapore, Singapore
+        <ul>
+          <li>Visiting Scholar, 2014 - 2015</li>
+        </ul>
       </li>
     </ul>
 
-    <h3 style="font-size:1rem;color:var(--color-text-muted);margin:26px 0 8px;">Working Experience</h3>
-    <ul class="timeline">
-      <li>
-        <div class="period">2026 –</div>
-        <div>
-          <div class="role">Associate Professor (incoming)</div>
-          <div class="org">School of Artificial Intelligence, Southern University of Science and Technology</div>
-        </div>
+    <h2 id="education-experiences">Education Experiences</h2>
+    <ul>
+      <li>Hong Kong University of Science and Technology, Hong Kong
+        <ul>
+          <li>PhD in Computer Science and Engineering, 2010 - 2015</li>
+        </ul>
       </li>
-      <li>
-        <div class="period">07/2024 – now</div>
-        <div>
-          <div class="role">Principal Researcher, Lead of LLM Posttraining Team (E13)</div>
-          <div class="org">Foundation Model and Application, Kuaishou</div>
-        </div>
-      </li>
-      <li>
-        <div class="period">06/2017 – 07/2024</div>
-        <div>
-          <div class="role">Principal Researcher (T12, promoted from Senior Researcher, Sept. 2021)</div>
-          <div class="org">Tencent AI Lab, Shenzhen</div>
-        </div>
-      </li>
-      <li>
-        <div class="period">08/2015 – 05/2017</div>
-        <div>
-          <div class="role">Senior Research and Development Engineer</div>
-          <div class="org">Baidu NLP, Shenzhen</div>
-        </div>
-      </li>
-      <li>
-        <div class="period">09/2014 – 06/2015</div>
-        <div>
-          <div class="role">Visiting Scholar</div>
-          <div class="org">National University of Singapore, Singapore</div>
-        </div>
+      <li>Sun Yat-sen University, China
+        <ul>
+          <li>B.S. in Computer Science, 2006 - 2010</li>
+        </ul>
       </li>
     </ul>
-  </section>
 
-  <section id="projects">
-    <h2 class="section-title">Featured Projects</h2>
-    <div class="project-list">
+    <h2 id="honors-and-awards">Honors and Awards</h2>
+    <ul>
+      <li>Award Nomination, ACL 2026</li>
+      <li>Best Paper Award, ICLR First Workshop on Open Science for Foundation Models, 2025</li>
+      <li>Best Paper Nomination, ACL 2023</li>
+      <li>Best Paper Nomination, IEEE Transactions on Games 2023</li>
+      <li>Tencent Outstanding Teaching Award, 2023</li>
+      <li>Google Anita Borg Scholarship, 2014 (4 recipients in Hong Kong)</li>
+      <li>Google PhD Fellowship in Machine Learning, 2013 (1 recipient in China)</li>
+      <li>Postgraduate Studentship, Hong Kong University of Science and Technology, 2010 - 2014</li>
+      <li>Outstanding Graduate Student, Sun Yat-sen University, 2010</li>
+      <li>Meritorious Winner in Mathematical Contest in Modeling (MCM), USA, 2009</li>
+      <li>Academic Excellence Award, Sun Yat-sen University, 2006 - 2009</li>
+      <li>National Scholarship, China, 2006</li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P1</span>LLM Posttraining <span class="period">(03/2023 – now)</span></h3>
-        <p>Lead the posttraining techniques and applications of the Kuaishou LLM team and Tencent AI Lab. Recent work
-        focuses on posttraining open-sourced LLMs with reasoning and agentic enhancement, including math, tool-use,
-        software engineering coding tasks, and open-ended writing tasks. Representative open-sourced projects include
-        Leanabell-prover V1 &amp; V2 (mathematical formal theorem proving), Klear-CodeTest and Klear-AgentForge (agentic
-        coding and tool use), and DPWriter (creative writing).</p>
-        <div class="links">
-          <a href="https://github.com/Leanabell-LM" target="_blank" rel="noopener">Leanabell-LM</a> ·
-          <a href="https://github.com/Kwai-Klear/CodeTest" target="_blank" rel="noopener">Klear-CodeTest</a> ·
-          <a href="https://github.com/Kwai-Klear/Klear-AgentForge" target="_blank" rel="noopener">Klear-AgentForge</a> ·
-          <a href="https://github.com/Aman-4-Real/DPWriter" target="_blank" rel="noopener">DPWriter</a>
-        </div>
-      </div>
+    <h2 id="services">Services</h2>
+    <p><strong>Area Chair:</strong></p>
+    <ul>
+      <li>ARR (ACL / EMNLP / NAACL)</li>
+      <li>Conference on Neural Information Processing Systems (NeurIPS)</li>
+      <li>International Joint Conference on Artificial Intelligence (IJCAI)</li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P2</span>Vision-Language LLMs <span class="period">(07/2024 – 04/2025)</span></h3>
-        <p>Led the LLM posttraining for multimodal understanding tasks for Kuaishou Kling AI. Built upon the SigLip
-        visual encoder and Qwen2.5-7B Instruct, this model demonstrates a significant performance improvement over
-        MiniCPM V2.6, Intern-VL 2-8B, and Qwen2-VL-7B, introducing new capabilities for multi-image, video, and audio
-        understanding. Deployed for video recaptioning in China's leading commercial video generation model.</p>
-      </div>
+    <p><strong>Reviewer / PC Member:</strong></p>
+    <ul>
+      <li>ICML, ICLR, AAAI, IJCAI, JMLR, TPAMI, TKDE, TNNLS, TIP, etc.</li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P3</span>Diffusion Language Models <span class="period">(08/2023 – now)</span></h3>
-        <p>Lead projects designing discrete diffusion models for text generation at both Kuaishou and Tencent AI Lab.
-        Unlike autoregressive models that generate tokens sequentially, discrete diffusion models dynamically refine
-        the full sequence in parallel starting from a fully noised state.</p>
-        <div class="links"><a href="https://github.com/Kwai-Klear/DreamOn" target="_blank" rel="noopener">DreamOn</a></div>
-      </div>
+    <p><strong>Conference Service:</strong></p>
+    <ul>
+      <li>Sponsor Co-chair, PAKDD 2026</li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P4</span>Trustworthy LLMs <span class="period">(03/2023 – now)</span></h3>
-        <p>Lead research on building trustworthy LLMs at both Kuaishou and Tencent AI Lab, including hallucination
-        mitigation, reasoning robustness, automated red-teaming methods, and mechanistic interpretability.</p>
-      </div>
+    <p><strong>Committee:</strong></p>
+    <ul>
+      <li>Chinese Information Processing Society of China (CIPS)</li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P5</span>Creative Writing Assistant "Effidit" <span class="period">(08/2022 – 06/2024)</span></h3>
-        <p>Led the training of LLMs at Tencent AI Lab that generate various text-based content from user instructions,
-        aiming to inspire users with rich content when writing. Served products such as Tencent Docs, Sogou Pinyin
-        Method, and Tencent Cloud Open Platform.</p>
-        <div class="links"><a href="https://effidit.qq.com/" target="_blank" rel="noopener">effidit.qq.com</a></div>
-      </div>
+    <h2 id="research-grants-and-funding">Research Grants &amp; Funding</h2>
+    <p>All as Co-Principal Investigator.</p>
+    <ul>
+      <li>CCF-Kuaishou Large Model Explorer Fund | KuaiShou &amp; China Computer Federation
+        <ul><li>Large Language Models, 300,000 CNY, 2024</li></ul>
+      </li>
+      <li>CCF-Tencent Rhino-Bird Fund | Tencent &amp; China Computer Federation
+        <ul><li>Large Language Models, 200,000 CNY, 2023 - 2024</li></ul>
+      </li>
+      <li>Tencent AI Lab Rhino-Bird Special Fund | Tencent AI Lab
+        <ul><li>Natural Language Generation, 500,000 CNY per year, 2018 - 2024</li></ul>
+      </li>
+      <li>CCF-Tencent Rhino-Bird Fund | Tencent &amp; China Computer Federation
+        <ul><li>Dialog Systems, 200,000 CNY per year, 2018 - 2022</li></ul>
+      </li>
+    </ul>
 
-      <div class="project-card">
-        <h3><span class="tag">P6</span>Open-domain Dialog System <span class="period">(07/2017 – 06/2024)</span></h3>
-        <p>Led the research and deployment of the open-domain dialog system at Tencent AI Lab, serving products
-        including intelligent customer service, smart speakers, and virtual humans.</p>
-      </div>
+    <hr>
 
-      <div class="project-card">
-        <h3><span class="tag">P7</span>Digital Human "AILING" <span class="period">(01/2018 – 02/2022)</span></h3>
-        <p>Led development of the multi-modal interaction module of Tencent AI Lab's virtual human "AILING" —
-        enabling the virtual human to communicate with consistent facial expressions, gestures, and natural language
-        with proper pronunciation and intonation.</p>
-      </div>
-
-      <div class="project-card">
-        <h3><span class="tag">P8</span>Digital Human "Tian E Jing (T.E.G.)" for Tencent Gaming <span class="period">(03/2019 – 02/2022)</span></h3>
-        <p>Led development of Tencent AI Lab's virtual human T.E.G. for Esports, providing real-time commentary on
-        ongoing games based on real-time structural gamecore data streams. Deployed into Timi Game Broadcast and
-        WeChat Game Broadcast.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="honors">
-    <h2 class="section-title">Honors &amp; Awards</h2>
-    <ol class="honor-list">
-      <li>Award Nomination, ACL 2026.</li>
-      <li><span class="hl">Best Paper Award</span>, ICLR First Workshop on Open Science for Foundation Models, 2025.</li>
-      <li>Best Paper Nomination, ACL 2023.</li>
-      <li>Best Paper Nomination, IEEE Transactions on Games 2023.</li>
-      <li>Tencent Outstanding Teaching Award, 2023.</li>
-      <li>Google Anita Borg Scholarship, 2014 (4 recipients in Hong Kong).</li>
-      <li>Google PhD Fellowship in Machine Learning, 2013 (1 recipient in China).</li>
-      <li>Postgraduate Studentship, Hong Kong University of Science and Technology, 2010–2014.</li>
-      <li>Outstanding Graduate Student, Sun Yat-sen University, 2010.</li>
-      <li>Meritorious Winner in Mathematical Contest in Modeling (MCM), USA, 2009.</li>
-      <li>Academic Excellence Award, Sun Yat-sen University, 2006–2009.</li>
-      <li>National Scholarship, China, 2006.</li>
-    </ol>
-  </section>
-
-  <section id="publications">
-    <h2 class="section-title">Selected Publications</h2>
-    <p class="pub-note">Underlined names are full-time employees / student interns under my supervision. An asterisk (*) indicates I am the corresponding author. See the <a href="publications.html">full publication list (88 papers)</a> for complete details.</p>
-
-    <h3 class="pub-year">2026</h3>
-    <ol class="pub-list">
-      <li class="pub-item">Yifan Zhang, <span class="me">Wei Bi</span>, Kechi Zhang, Dongming Jin, Jie Fu, Zhi Jin. Weights to Code: Extracting Interpretable Algorithms from the Discrete Transformer. <span class="venue">ICML</span>, 2026.</li>
-      <li class="pub-item">Qian Cao, <span class="advisee">Yahui Liu</span>, <span class="me">Wei Bi</span>, Yi Zhao, Ruihua Song, Xiting Wang, Ruiming Tang, Guorui Zhou, Han Li. DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing. <span class="venue">ACL</span>, 2026.</li>
-      <li class="pub-item">Hongzhi Zhang, et al., <span class="me">Wei Bi</span>, et al. DeepSynth-Eval: Objectively Evaluating Information Consolidation in Deep Survey Writing. <span class="venue">Findings of ACL</span>, 2026. <span class="note">(Award nomination)</span></li>
-      <li class="pub-item">Zirui Wu, Lin Zheng, et al., <span class="me">Wei Bi</span>, Guorui Zhou, Lingpeng Kong. DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas. <span class="venue">ICLR</span>, 2026.</li>
-    </ol>
-
-    <h3 class="pub-year">2025</h3>
-    <ol class="pub-list" start="5">
-      <li class="pub-item">Gangwei Jiang, <span class="advisee">Yahui Liu</span>, Zhaoyi Li, <span class="me">Wei Bi</span>, et al. What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning. <span class="venue">EMNLP</span>, 2025.</li>
-      <li class="pub-item">Jingyuan Zhang, et al., <span class="me">Wei Bi</span>, Fuzheng Zhang. Data Metabolism: An Efficient Data Design Schema For Vision Language Model. <span class="venue">ICLR First Workshop on Open Science for Foundation Models</span>, 2025. <span class="note">(Best paper award)</span></li>
-      <li class="pub-item">Yue Zhang, Yafu Li, Leyang Cui, et al., <span class="me">Wei Bi</span>, Freda Shi, Shuming Shi. Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models. <span class="venue">Computational Linguistics</span>, 2025.</li>
-      <li class="pub-item">Shansan Gong, Shivam Agarwal, et al., <span class="me">Wei Bi</span>, Jiawei Han, Hao Peng, Lingpeng Kong. Scaling Diffusion Language Models via Adaptation from Autoregressive Models. <span class="venue">ICLR</span>, 2025.</li>
-    </ol>
-
-    <h3 class="pub-year">2024</h3>
-    <ol class="pub-list" start="9">
-      <li class="pub-item"><span class="advisee">Fanqi Wan</span>, Xinting Huang, Leyang Cui, Xiaojun Quan, <span class="me">Wei Bi</span>, Shuming Shi. Knowledge Verification to Nip Hallucination in the Bud. <span class="venue">EMNLP</span>, 2024.</li>
-      <li class="pub-item">Qintong Li, Leyang Cui, Xueliang Zhao, Lingpeng Kong, <span class="me">Wei Bi*</span>. GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers. <span class="venue">ACL</span>, 2024.</li>
-      <li class="pub-item"><span class="advisee">Fanqi Wan</span>, Xinting Huang, Deng Cai, Xiaojun Quan, <span class="me">Wei Bi</span>, Shuming Shi. Knowledge Fusion of Large Language Models. <span class="venue">ICLR</span>, 2024.</li>
-    </ol>
-
-    <h3 class="pub-year">2023 &amp; earlier (selected)</h3>
-    <ol class="pub-list" start="12">
-      <li class="pub-item">Yafu Li, Leyang Cui, Jianhao Yan, Yongjing Yin, <span class="me">Wei Bi</span>, Shuming Shi, Yue Zhang. Explicit Syntactic Guidance for Neural Text Generation. <span class="venue">ACL</span>, 2023. <span class="note">(Top 1.6%, nominated for best paper award)</span></li>
-      <li class="pub-item"><span class="me">Wei Bi</span>, Jun Gao, Xiaojiang Liu, Shuming Shi. Fine-Grained Sentence Functions for Short-Text Conversation. <span class="venue">ACL</span>, 2019.</li>
-      <li class="pub-item"><span class="me">Wei Bi</span>, James T. Kwok. Efficient Multi-Label Classification with Many Labels. <span class="venue">ICML</span>, 2013.</li>
-    </ol>
-
-    <div class="see-all">
-      <a href="publications.html">View all 88 publications →</a>
-    </div>
-  </section>
-
-  <section id="service">
-    <div class="two-col">
-      <div>
-        <h2 class="section-title">Research Grants &amp; Funding</h2>
-        <ul class="simple-list">
-          <li>CCF-Kuaishou Large Model Explorer Fund — <em>Large Language Models</em> <span class="amount">(¥300,000, 2024)</span></li>
-          <li>CCF-Tencent Rhino-Bird Fund — <em>Large Language Models</em> <span class="amount">(¥200,000, 2023–2024)</span></li>
-          <li>Tencent AI Lab Rhino-Bird Special Fund — <em>Natural Language Generation</em> <span class="amount">(¥500,000/yr, 2018–2024)</span></li>
-          <li>CCF-Tencent Rhino-Bird Fund — <em>Dialog Systems</em> <span class="amount">(¥200,000/yr, 2018–2022)</span></li>
-        </ul>
-        <p style="font-size:0.85rem;color:var(--color-text-muted);">All as Co-Principal Investigator.</p>
-
-        <h2 class="section-title" style="margin-top:30px;">Teaching</h2>
-        <ul class="simple-list">
-          <li>Guest Lecturer, Dept. of Computer Science, The University of Hong Kong — "Introduction to AIGC" (Spring 2023)</li>
-          <li>Lecturer, Tencent — "OpenAI's ChatGPT and its AGI Roadmap" (Tencent Outstanding Teaching Award 2023)</li>
-          <li>Teaching Assistant, HKUST — COMP2011, COMP4901A, COMP4331, COMP4211, COMP152, COMP271 (2010–2014)</li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="section-title">Professional Activities</h2>
-        <ul class="simple-list">
-          <li>Area Chair for ARR (ACL/EMNLP/NAACL), NeurIPS, IJCAI</li>
-          <li>Reviewer / PC Member for ICML, ICLR, AAAI, IJCAI, JMLR, TPAMI, TKDE, TNNLS, TIP, etc.</li>
-          <li>Sponsor Co-chair, PAKDD 2026</li>
-          <li>Committee Member, Chinese Information Processing Society of China (CIPS)</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2 class="section-title">Contact</h2>
-    <p class="lede">
-      I welcome inquiries from prospective PhD students, Postdocs, and collaborators interested in large language
-      models, vision-language models, and NLP research. Please reach out by email with your CV and research interests.
-    </p>
-    <div class="contact-row" style="margin-top:6px;">
-      <a href="mailto:biwei198804@gmail.com">✉ biwei198804@gmail.com</a>
-      <span>School of Artificial Intelligence, Southern University of Science and Technology, Shenzhen, China</span>
-    </div>
-  </section>
-
+  </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <p>© <span id="year"></span> Wei Bi (闭玮). Built with plain HTML/CSS, hosted on GitHub Pages.</p>
-    <a href="#top" class="back-to-top">↑ Back to top</a>
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+  <div class="wrapper">
+    <h2 class="footer-heading">Wei Bi 闭玮</h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wei Bi 闭玮</li>
+          <li><a href="mailto:biwei198804@gmail.com">biwei198804@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list"></ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>School of Artificial Intelligence, Southern University of Science and Technology, Shenzhen, China</p>
+      </div>
+    </div>
   </div>
 </footer>
-
-<script src="script.js"></script>
 </body>
 </html>
